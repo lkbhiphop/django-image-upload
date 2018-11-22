@@ -1,5 +1,7 @@
 <h1>Post List</h1>
 
+<a href="{% url 'posts:create' %}"> New Post</a>
+
 <ul>
     {% for post in post_list %}
     <li>
